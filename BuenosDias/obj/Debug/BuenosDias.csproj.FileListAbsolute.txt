@@ -1,0 +1,15 @@
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\BuenosDias.exe.config
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\BuenosDias.exe
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\BuenosDias.pdb
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.csproj.AssemblyReference.cache
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.csproj.GenerateResource.cache
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.csproj.CoreCompileInputs.cache
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.exe
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.pdb
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.MainForm.resources
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\EntityFramework.dll
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\EntityFramework.xml
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.csproj.Up2Date
+C:\Users\hthan\source\repos\BuenosDias\BuenosDias\obj\Debug\BuenosDias.NewBaiVietForm.resources

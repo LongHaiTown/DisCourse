@@ -1,0 +1,1 @@
+React: Lập trình web - một cuộc hành trình vào thế giới lập trình hiện đại, nơi mà từng dòng mã trở thành những mảnh ghép kỳ diệu của một bức tranh số hóa. Trong không gian sáng tạo này, bạn sẽ được khám phá những bí mật của React, một thư viện JavaScript mạnh mẽ, giúp bạn xây dựng các ứng dụng web tương tác và mượt mà.

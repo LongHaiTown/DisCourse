@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D486028C-5142-4301-8017-F1ED7C75D8DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BuenosDias.GUII</RootNamespace>
+    <AssemblyName>BuenosDias.GUII</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Component\CoursePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\PostPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component\PostPanel_Small.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewBaiVietFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBaiVietFrom.Designer.cs">
+      <DependentUpon>NewBaiVietFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCourseForm.Designer.cs">
+      <DependentUpon>NewCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NewBaiVietFrom_PostDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewBaiVietFrom_PostDescription.Designer.cs">
+      <DependentUpon>NewBaiVietFrom_PostDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestingDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestingDelete.Designer.cs">
+      <DependentUpon>TestingDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSinhVienForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSinhVienForm.Designer.cs">
+      <DependentUpon>ThemSinhVienForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Course.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Course.Designer.cs">
+      <DependentUpon>UC_Course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Courses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Courses.Designer.cs">
+      <DependentUpon>UC_Courses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Management1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Management1.Designer.cs">
+      <DependentUpon>UC_Management1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Management2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Management2.Designer.cs">
+      <DependentUpon>UC_Management2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_PersonalPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_PersonalPage.Designer.cs">
+      <DependentUpon>UC_PersonalPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Post.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Post.Designer.cs">
+      <DependentUpon>UC_Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_controls\UC_Posts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_controls\UC_Posts.Designer.cs">
+      <DependentUpon>UC_Posts.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewBaiVietFrom.resx">
+      <DependentUpon>NewBaiVietFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCourseForm.resx">
+      <DependentUpon>NewCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="NewBaiVietFrom_PostDescription.resx">
+      <DependentUpon>NewBaiVietFrom_PostDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestingDelete.resx">
+      <DependentUpon>TestingDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSinhVienForm.resx">
+      <DependentUpon>ThemSinhVienForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Course.resx">
+      <DependentUpon>UC_Course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Courses.resx">
+      <DependentUpon>UC_Courses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Management1.resx">
+      <DependentUpon>UC_Management1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Management2.resx">
+      <DependentUpon>UC_Management2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_PersonalPage.resx">
+      <DependentUpon>UC_PersonalPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Post.resx">
+      <DependentUpon>UC_Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_controls\UC_Posts.resx">
+      <DependentUpon>UC_Posts.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuenosDias.BUS\BuenosDias.BUS.csproj">
+      <Project>{7b90178e-8c5d-4d1f-9b75-f904389f0ff9}</Project>
+      <Name>BuenosDias.BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuenosDias.DALL\BuenosDias.DALL.csproj">
+      <Project>{21e180a1-630b-4425-b5a9-77921bbc3023}</Project>
+      <Name>BuenosDias.DALL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post_new_icon_250115.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>
