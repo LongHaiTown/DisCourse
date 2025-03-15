@@ -21,7 +21,7 @@ This application is a course and discussion platform built using C# with WinForm
 ### Setup Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/project-name.git
+   https://github.com/LongHaiTown/DisCourse.git
 2. **Database Installation:**
 - Locate the `.bacpac` file in the Database directory.
 - Import the `.bacpac` file using SQL Server Management Studio (SSMS):
@@ -33,7 +33,7 @@ This application is a course and discussion platform built using C# with WinForm
 - Install necessary packages via NuGet:
   - Guna2 UI: `Install-Package Guna.UI2.WinForms`
 4. **Database Connection**:
-- The application uses ADO.NET for data access. Configure the connection string in `app.config` or wherever appropriate.
+- The application uses ADO.NET for data access. After importing, update the database connection string in `app.config` to match your SQL Server instance and database name.
 5. **Build and Run**:
 - Build and run the project through Visual Studio.
  
